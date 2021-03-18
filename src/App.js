@@ -14,13 +14,13 @@ class App extends React.Component {
       <>
         <Title>Progress Tracker</Title>
         <div>
-          <Section day="M" />
-          <Section day="T" />
-          <Section day="W" />
-          <Section day="T" />
-          <Section day="F" />
-          <Section day="S" />
-          <Section day="S" />
+          <Section day="M" progress="100%"/>
+          <Section day="T" progress="90%"/>
+          <Section day="W" progress="80%"/>
+          <Section day="T" progress="60%"/>
+          <Section day="F" progress="50%"/>
+          <Section day="S" progress="30%"/>
+          <Section day="S" progress="20%"/>
         </div>
       </>
     );
